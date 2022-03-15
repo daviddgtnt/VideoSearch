@@ -44,11 +44,11 @@ function App() {
 function Checkmark(props) {
   if (props.checked) {
     return (
-      <span className="material-icons-round">check_box</span>
+      <a href={props.checked} className="material-icons-round onPlatform">check_box</a>
     )
   } else {
     return (
-      <span className="material-icons-round">indeterminate_check_box</span>
+      <span className="material-icons-round offPlatform">indeterminate_check_box</span>
     )
   }
 }

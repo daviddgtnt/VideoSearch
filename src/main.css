@@ -31,3 +31,16 @@ input:focus {
 button:hover {
   background-color: #dddddd;
 }
+
+a {
+  color: #444444;
+  text-decoration: none;
+}
+
+.onPlatform {
+  color: limegreen;
+}
+
+.offPlatform {
+  color: red;
+}
