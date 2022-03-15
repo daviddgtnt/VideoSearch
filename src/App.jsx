@@ -55,7 +55,7 @@ function Checkmark(props) {
 
 const Hit = ({ hit }) => <>
   <Highlight attribute="name" hit={hit} /><br />
-  <Highlight attribute="channel" hit={hit} /><br />
+  <span>{hit.channel}</span><br />
   <span>YouTube: </span><Checkmark checked={hit.youtube} /><br />
   <span>Odysee: </span><Checkmark checked={hit.odysee} /><br />
   <span>TikTok: </span><Checkmark checked={hit.tiktok} /><br />
